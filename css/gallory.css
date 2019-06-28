@@ -1,0 +1,79 @@
+.gallory-section {
+  padding-top: 60px;
+}
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: menu;
+}
+.item3 {
+  grid-area: main;
+}
+.item4 {
+  grid-area: right;
+}
+.item5 {
+  grid-area: footer;
+}
+
+.item1 {
+  height: 230px;
+  background-image: url("https://timelinecovers.pro/facebook-cover/download/artistic-psychedelic-painting-facebook-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.9);
+}
+
+.item2 {
+  height: 230px;
+  background-image: url("https://i.pinimg.com/originals/ae/3a/8c/ae3a8c3479dc10058f5556ac6cd0a5f0.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.9);
+}
+
+.item2 {
+  background-image: url("https://i.pinimg.com/originals/ae/3a/8c/ae3a8c3479dc10058f5556ac6cd0a5f0.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.9);
+}
+
+.item3 {
+  background-image: url("https://beinglol.com/media/facebook-cover/Artistic-Painting-Canvas-Facebook-Covers-790.jpeg");
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.9);
+}
+
+.item4 {
+  background-image: url("https://timelinecovers.pro/facebook-cover/download/artistic-psychedelic-colors-facebook-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.9);
+}
+
+.item5 {
+  background-image: url("https://coverfiles.alphacoders.com/715/7152.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.9);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

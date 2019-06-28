@@ -1,0 +1,77 @@
+.home-section {
+  padding-top: 40px;
+  margin-top: 50px;
+}
+
+.home-section {
+  display: flex;
+}
+
+.home-section .left {
+  width: 50%;
+  height: 80%;
+  margin: 20px;
+  background-image: linear-gradient(
+    135deg,
+    rgba(131, 146, 19, 0),
+    rgba(195, 59, 59, 0.363)
+  );
+  border-radius: 5%;
+}
+
+.home-section fieldset:hover {
+  cursor: all-scroll;
+  transition: 1s;
+  transform: scale(1.03);
+  border-radius: 0 100px 100px 0px;
+}
+
+.home-section fieldset {
+  position: relative;
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: rgba(224, 132, 132, 0.178);
+  left: 2%;
+  top: 1%;
+  height: 100%;
+  transition: 2s;
+}
+
+.home-section legend {
+  color: rgba(10, 10, 10, 0.63);
+
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.home-section fieldset p {
+  color: rgb(253, 247, 255);
+  font-size: 18px;
+  /* font-weight: bold; */
+  line-height: 200%;
+}
+
+.right .photo {
+  height: 450px;
+  width: 450px;
+  margin: 20px;
+  position: relative;
+  left: 50px;
+  top: 40px;
+  /* background-image: url("https://barcelonacodeschool.com/static/bcs_young_coders_semana_santa_coding_camp.2e78c7b9.jpg");
+  background-size: cover; */
+  /* box-shadow: 1px 1px 5px rgb(116, 115, 115); */
+  transition: 0.7s;
+}
+.right .photo img {
+  width: 500px;
+  /* margin-right: 50px; */
+  margin-top: 100px;
+  padding: 0;
+}
+
+.right .photo:hover {
+  transform: scale(1.02);
+  transition: 0.7s;
+  cursor: all-scroll;
+}
